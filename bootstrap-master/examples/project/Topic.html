@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+      <link href="navbar-fixed-top.css" rel="stylesheet">
+      <LINK REL="stylesheet" HREF="http://www.helpowl.com/jslib/jquery_share/jquery.share.css" TYPE="text/css">
+      <SCRIPT TYPE="text/javascript" SRC="http://www.helpowl.com/jslib/jquery-1.4.js"></SCRIPT>
+      <SCRIPT TYPE="text/javascript" SRC="http://www.helpowl.com/jslib/jquery_share/jquery.share.js"></SCRIPT>
+      <SCRIPT type="text/javascript">
+         jQuery( document ).ready(function() {
+         
+             jQuery('#tmShareButtonDiv').share({
+                 networks: ['facebook','twitter','googleplus','pinterest','tumblr','reddit'],
+                 theme: 'icon', //icon or square
+                 orientation: 'vertical',
+                 urlToShare: location.href,
+                 affix: 'left center'
+             });
+         
+         
+         });
+      </SCRIPT>
+      <style type="text/css">
+      #tmShareButtonDiv {
+margin-left:-10px;
+left:10%;
+top:40%;
+}
+
+      </style>
+   </head>
+   
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "facebookall.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+      
+      <div id="tmShareButtonDiv"></div>
+      
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#">CareerPlan</a>
+            </div>
+            <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#about">Profile</a></li>
+                  <li><a href="#contact">Job</a></li>
+                  <li><a href="#contact">Interest</a></li>
+                  <li><a href="#contact">Personal Board</a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Network <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Connections</a></li>
+                        <li><a href="#">Manage Connections</a></li>
+                        <li><a href="#">Find Connections</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Connect to network</li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Chat</a></li>
+                        <li><a href="#">Hangout</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a href="../navbar-static-top/">
+                        <form class="navbar-search pull-left"><input type="text" class="search-query" placeholder="Search">
+                     </a>
+                     </form>
+                  </li>
+                  <li class="active"><a href="./"><button type="submit" class="btn btn-success">Logout</button></a></li>
+               </ul>
+            </div>
+            <!--/.nav-collapse -->
+         </div>
+      </div>
+      
+      <div class="container">
+         <div class="row row-offcanvas row-offcanvas-right">
+            <div class="col-xs-12 col-sm-9">
+               <p class="pull-right visible-xs">
+                  <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+               </p>
+               <div class="row ">
+                  <img src="sjsu.png"></img> <a href="./"><button type="submit" class="btn btn-success">Join Group</button></a>
+               </div>
+               <div class="row">
+                  <img src="jbks.png" style="height:50px; width:50px"></img> Jeyabarani (Student) 
+               <iframe src="http://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fzuck&amp;width=450&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;show_faces=true&amp;appId=534364936611110" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+               </div>
+               
+               <div class="row">
+                  <div class="col-12">
+                     <h2>Tools I can use for Visualizing data</h2>
+                     <iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FJeyaBaraniKS&amp;width=450&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=true&amp;appId=534364936611110" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+                        <p>The SJSU Career Center assists employers in gaining a Competitive Edge by identifying, attracting, and recruiting the top talent of Silicon Valley for a global marketplace. We provide an array of services that can save you money while hiring skilled employees. 
+                     </p>
+                     <p>SJSU Alumni Association
+                        You’re already a proud Spartan. Now it’s time to become a member of the SJSU Alumni Association. As a member, you'll have the opportunity to network with graduates throughout the country who represent the ideals of San José State. Strengthen the value of your degree, enjoy fantastic money-saving...
+                     </p>
+                     <p><a class="btn btn-default" href="#">More &raquo;</a></p>
+                  </div>
+                  <!--/span-->
+                  <div class="col-12">
+                     <h2>Comments</h2>
+                     <a>Hadoop</a> <br> <a> Neo4J</a>
+                     <p><a class="btn btn-default" href="#">More &raquo;</a></p>
+                  </div>
+                  <!--/span-->
+                  <hr>
+               </div>
+               <!--/row-->
+            </div>
+            <div class="fb-comments" data-href="https://plus.google.com/113809953445811041408/posts" data-width="470">Comments</div>
+<div class="fb-recommendations" data-app-id="534364936611110" data-site="https://www.facebook.com/JeyaBaraniKS" data-action="Comma separated list of action of action types" data-width="300" data-height="300" data-header="true"></div>
+            <!--/span-->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+               <div class="well sidebar-nav">
+                  <ul class="nav">
+                     <li>
+                        <h5>Similar Groups</h5>
+                     </li>
+                     <li class="active"><a href="#">Google</a></li>
+                     <li><a href="#">Microsoft</a></li>
+                     <li><a href="#">Amazon</a></li>
+                  </ul>
+               </div>
+               <!--/.well -->
+            </div>
+            <!--/span-->
+         </div>
+         <!--/row-->
+         <hr>
+         <footer>
+         <p class="text-muted credit">Contact us <a href="http://twitter.com/ksjeyabarani">Jeyabarani K S</a> and <a href="http://www.facebook.com/lini.kuriyan">Lini Kuriyan</a>.   </p>
+         <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>  &middot; <a href="about.html">About Us</a>  </p>
+      </div>
+      <footer>
+      </div><!--/.container-->
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="../../dist/js/bootstrap.min.js"></script>
+   </body>
+</html>
+</HTML>

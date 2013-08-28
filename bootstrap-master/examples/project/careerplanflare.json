@@ -1,0 +1,53 @@
+
+{
+ "name": "Jeyabarani",
+ "children": [
+{
+ "name": "HighSchool",
+ "children": [
+  {
+   "name": "Engineering",
+   "children": [
+    {
+     "name": "Computer Engineering",
+     "size": 100
+    },
+    {
+     "name": "Civil Engineering",
+     "children": [
+      {"name": "Structural Engineering", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Medical",
+   "children": [
+    {"name": "Surgery", "size": 5842},
+    {
+     "name": "ENT",
+     "size": 6006
+    },
+    {"name": "Research", "size": 6006}
+   ]
+  },
+  {
+   "name": "Arts",
+   "children": [
+    {
+     "name": "Dance",
+     "children": []
+    },
+    {"name": "Painting", "size": 3322}
+   ]
+  },
+  {
+   "name": "Commerce",
+   "children": [
+    {"name": "Accounting", "size": 10066}
+   ]
+  }
+ ]
+}
+ ]
+}
